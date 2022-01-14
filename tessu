@@ -1,0 +1,9 @@
+while :
+do
+  screen ping google.com >/dev/null 2>&1 & 
+  echo "sukses run 10 menit"
+  sleep 10m
+  killall screen
+  echo "sukses terminated 5 menit"
+  sleep 5m
+done
